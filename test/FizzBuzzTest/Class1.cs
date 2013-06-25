@@ -34,7 +34,7 @@ namespace FizzBuzzTest
 
         [Test]
         public void divisible_by_3_and_5_means_fizzbuzz_30() {
-            Assert.AreEqual("uh, wut?", fb.FizzBuzzerate(30));
+            Assert.AreEqual("fizzbuzz", fb.FizzBuzzerate(30));
         }
     }
 }
